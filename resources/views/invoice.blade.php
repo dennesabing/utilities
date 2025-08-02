@@ -215,33 +215,35 @@
                 <img src="{{ asset('images/digitalocean-text.svg') }}" alt="DigitalOcean" style="height: 32px;">
             </div>
         </div>
-        <h2>Final invoice for the June 2025 billing period</h2>
+        <p style="font-size: 21px;">Final invoice for the June 2025 billing period</p>
 
+    <br />
+    <br />
 
-        <table>
+        <table style="width: 100%">
             <tr>
-                <td>
-                    <h3>From</h3>
+                <td style="width:50%">
+                    <p style="font-weight: bold; margin-bottom: 20px">From</p>
                     <p>
-                        <strong>DigitalOcean LLC</strong>
+                        DigitalOcean LLC
                         <br />105 Edgeview Drive, Suite 425
                         <br />Broomfield, CO, 80021
                         <br />TIN: 678-947-185-00000
                     </p>
                 </td>
-                <td>
-                    <h3>Invoice Details</h3>
-                    <table>
+                <td style="width:50%">
+                    <p style="font-weight: bold; margin-bottom: 20px">Invoice Details</p>
+                    <table style="width: 100%;">
                         <tr>
-                            <td>Invoice Number</td>
+                            <td style="width: 65%">Invoice Number</td>
                             <td>519165746</td>
                         </tr>
                         <tr>
-                            <td>Date of issue:</td>
+                            <td style="width: 65%">Date of issue:</td>
                             <td>July 1, 2025</td>
                         </tr>
                         <tr>
-                            <td>Payment due on:</td>
+                            <td style="width: 65%">Payment due on:</td>
                             <td>July 1, 2025</td>
                         </tr>
                     </table>
@@ -249,52 +251,65 @@
             </tr>
         </table>
 
-        <table>
+        <br />
+        <br />
+
+        <table style="width: 100%">
             <tr>
-                <td>
-                    <h3>Billing Details</h3>
+                <td style="width: 50%; padding-top:20px;"><p style="font-weight: bold">Billing Details</p></td>
+                <td style="width: 50%; padding-top:20px;"><p style="font-weight: bold">Team ID</p></td>
+            </tr>
+            <tr>
+                <td style="width: 50%; padding-top:20px;">
                     <p>
                         My Team
-                        <br /><dennes.b.abing@gmail.com>
+                        <dennes.b.abing@gmail.com>
                         <br />#71 Amethyst St, Phase 1,
                         <br />Countryside Subd., Bangkal
                         <br />Davao City, Davao del Sur, 8000
                         <br />PHILIPPINES
-
                     </p>
                 </td>
-                <td>
-                    <h3>Team ID</h3>
+                <td style="width: 50%; padding-top:20px;vertical-align: top">
                     do:team:928c34b7470a315def11a89c3fea68db8b4c1fd1
                 </td>
             </tr>
         </table>
 
-        <table>
+        <br />
+        <br />
+
+        <table style="width:100%;">
             <tr>
                 <td colspan="2">
-                    <h3>Summary</h3>
+                    <p style="font-size: 20px;padding-bottom: 10px;">Summary</p>
+                    <hr />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <h3>Total usage charges</h3>
+                    <p style="font-size: 12px;padding: 10px 0;">Total usage charges</p>
+                    <hr />
                 </td>
-                <td>
-                    $138.55
+                <td style="text-align: right;">
+                    <p style="font-size: 12px;padding: 10px 0;">$138.55</p>
+                    <hr />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <h3>Total due</h3>
+                    <p style="font-size: 20px;padding: 10px 0; font-weight: bold">Total due</p>
                 </td>
-                <td>
-                    $138.55
+                <td style="text-align: right;">
+                    <p style="font-size: 20px;padding: 10px 0; font-weight: bold">$138.55</p>
                 </td>
             </tr>
         </table>
 
+        <br/>
         <hr />
+        <br/>
+        <br/>
 
         <table>
             <tr>
